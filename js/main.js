@@ -20,6 +20,29 @@
 })();
 
 $(function () {
+  $(".reviews__slider").owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    navText: [
+      '<img src="img/arrow_normal-l.svg">',
+      '<img src="img/arrow_normal-r.svg">',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      850: {
+        items: 2,
+      },
+      1000: {
+        items: 2,
+      },
+    },
+  });
+});
+
+$(function () {
   $(".customers__slider").owlCarousel({
     loop: true,
     margin: 10,
