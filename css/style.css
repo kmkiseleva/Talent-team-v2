@@ -89,6 +89,28 @@ h4 {
   color: #1a1a1a;
 }
 
+.line-long::before {
+  content: "";
+  float: left;
+  display: block;
+  background: url("../img/line-long.svg");
+  width: 6px;
+  height: 138px;
+  margin-right: 14px;
+  margin-top: 10px;
+}
+
+.line-short::before {
+  content: "";
+  float: left;
+  display: block;
+  background: url("../img/line-short.svg");
+  width: 6px;
+  height: 64px;
+  margin-right: 14px;
+  margin-top: 10px;
+}
+
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -400,6 +422,63 @@ h4 {
 
 .customers h2 {
   margin-bottom: 80px;
+}
+
+.customers__slider {
+  margin-bottom: 100px;
+}
+
+.customers__logos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1064px;
+  height: 458px;
+  margin: 0 auto;
+  padding-left: 80px;
+  align-items: center;
+}
+
+.customers__link {
+  display: block;
+}
+
+.customers__link.first {
+  margin-right: 210px;
+}
+
+.customers__link.second {
+  margin-right: 225px;
+}
+
+.customers__link.fourth,
+.customers__link.fifth {
+  margin-right: 230px;
+}
+
+.customers__link:nth-child(3n) {
+  margin-right: 0;
+}
+
+.customers .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 92%;
+}
+
+.customers .owl-carousel .owl-nav button:hover {
+  opacity: 0.8;
+  background: transparent;
+}
+
+.customers .owl-carousel .owl-nav button:focus {
+  outline: none;
+}
+
+.customers .owl-carousel .owl-nav button.owl-prev {
+  left: 42%;
+}
+
+.customers .owl-carousel .owl-nav button.owl-next {
+  right: 42%;
 }
 
 .submit__title {
