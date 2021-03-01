@@ -463,6 +463,14 @@ h4 {
   margin-bottom: 85px;
 }
 
+.reviews .owl-item {
+  padding-right: 20px;
+}
+
+.reviews .owl-item:hover {
+  cursor: pointer;
+}
+
 .reviews .owl-carousel .owl-nav button {
   position: absolute;
   top: 92%;
@@ -486,7 +494,7 @@ h4 {
 }
 
 .customers {
-  padding-top: 70px;
+  padding-top: 20px;
 }
 
 .customers h2 {
@@ -1030,6 +1038,7 @@ input:not(:placeholder-shown) {
     padding-top: 10px;
     position: absolute;
     top: 450px;
+    z-index: 1;
   }
 
   .languages-list {
@@ -1400,6 +1409,10 @@ input:not(:placeholder-shown) {
   .write-me__button a {
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .reviews .owl-item {
+    padding-right: 0;
   }
 
   .submit__content {
