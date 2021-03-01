@@ -670,6 +670,10 @@ input:not(:placeholder-shown) {
   color: #ffffff;
 }
 
+.submit__checkbox-link {
+  text-decoration: underline;
+}
+
 .checkbox {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
