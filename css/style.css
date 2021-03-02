@@ -250,6 +250,10 @@ h4 {
   margin-bottom: 10px;
 }
 
+.langs:first-child {
+  margin-bottom: 20px;
+}
+
 .lang {
   margin-right: 40px;
 }
@@ -261,6 +265,10 @@ h4 {
 }
 
 /* RESULTS */
+
+.results h2 {
+  margin-bottom: 0;
+}
 
 .results p {
   max-width: 410px;
@@ -292,6 +300,7 @@ h4 {
   margin-bottom: 20px;
   box-shadow: 0px 0px 14px rgba(1, 54, 87, 0.11);
   border-radius: 10px;
+  align-items: center;
 }
 
 .second {
@@ -341,6 +350,7 @@ h4 {
 
 .cost__title {
   max-width: 640px;
+  margin-bottom: 0;
 }
 
 .cost__subtitle {
@@ -390,6 +400,14 @@ h4 {
 
 .cost__item:last-child {
   margin-right: 0;
+}
+
+.cost__item-title {
+  margin-bottom: 5px;
+}
+
+.cost__item-text {
+  margin-top: 0;
 }
 
 .write-me {
