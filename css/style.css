@@ -375,6 +375,7 @@ h4 {
   justify-content: space-between;
   border-bottom: 1px solid #d6d6da;
   padding-bottom: 30px;
+  padding-top: 15px;
 }
 
 .cost__row:first-child {
@@ -403,6 +404,7 @@ h4 {
 
 .cost__item-title {
   margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .cost__item-text {
